@@ -21,6 +21,7 @@ The goal is to learn how to host a static website for free using **GitHub Pages*
 
 ---
 
+
 ## Deployment Steps
 
 ### Step 1: Create project files
@@ -40,7 +41,5 @@ Create `index.html` and `style.css` with your website content.
 
 ---
 
-### Link of Website
-```bash
 
 
