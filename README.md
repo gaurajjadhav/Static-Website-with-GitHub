@@ -39,7 +39,7 @@ cd path/to/Task 6 Static Web Deployment
 
 ```
 
-### Link of Website
+### Link to visit the deployed website
 ```bash
 https://gaurajjadhav.github.io/Static-Website-with-GitHub/
 
