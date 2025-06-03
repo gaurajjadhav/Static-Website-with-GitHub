@@ -28,7 +28,7 @@ Create `index.html` and `style.css` with your website content.
 
 ---
 
-### ✅ Step 2: Initialize Git repo
+### Step 2: Initialize Git repo
 ```bash
    cd path/to/Task 6 Static Web Deployment
 >> git init
@@ -37,5 +37,10 @@ Create `index.html` and `style.css` with your website content.
 >> git branch -M main
 >> git remote add origin https://github.com/gaurajjadhav/Static-Website-with-Github.git 
 >> git push -u origin main
+
+---
+
+### Link of Website
+```bash
 
 
