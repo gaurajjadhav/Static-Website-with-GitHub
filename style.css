@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #f9f9f9, #9f9797);
+  color: #3e2f2f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #633939;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: url('https://source.unsplash.com/1600x600/?coffee-shop') no-repeat center/cover;
+  color: #633939;
+  background-blend-mode: multiply;
+  background: linear-gradient(to right, #f9f9f9, #9f9797);
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  margin-top: -2rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding-left: 19rem;
+}
+
+
+
+.menu {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-top: -5.5rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  background-color: #f1f1f1;
+
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #633939;
+  color: white;
+  margin-top: 3rem;
+}
